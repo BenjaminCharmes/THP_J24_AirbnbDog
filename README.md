@@ -14,22 +14,13 @@ Here is exercise 1 in Ruby on Rails from day 23 of The Hacking Project: The Airb
 
 - `DoctorSpecialties` 
 
-1. A `doctor` would have several `specialties` (DEAL_WITH_IT), and a `specialty` could involve several `doctors`.
+1. A `dogsitter` can walk more than one `dog` on a `stroll`; and a `dog` can have more than one `dogsitter` via `stroll`.
 
-- `Patients`
-  - `first_name`
-  - `last_name`
+- `Strolls`
 
-- `Appointments`
-  - `date`
-
-1. An `appointment` can only have one `doctor`, but a `doctor` can have several `appointments`.
-
-2. An `appointment` can only have one `patient`, but a `patient` can have several `appointments`.
-
-3. A `doctor` can have several `patient`s, through `appointments`, and vice versa.
+- `Stroll_Dogs`
+ 
+1. A `city` can have several `dogsitter` and `dog`.
 
 - `Cities`
   - `city_name`
-
-1. A `city` can have several `dogsitter` and `dog`.
