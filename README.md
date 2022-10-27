@@ -3,3 +3,33 @@
 Here is exercise 1 in Ruby on Rails from day 23 of The Hacking Project: The Airbnb of dog walking !
 
 <h2 align="center">🎉 Day 9 of the Full Stack training 🎉</h2>
+
+### Models & Tables
+
+- `Dogsitters` 
+  - `name`
+
+- `Dogs` 
+  - `name`
+
+- `DoctorSpecialties` 
+
+1. A `doctor` would have several `specialties` (DEAL_WITH_IT), and a `specialty` could involve several `doctors`.
+
+- `Patients`
+  - `first_name`
+  - `last_name`
+
+- `Appointments`
+  - `date`
+
+1. An `appointment` can only have one `doctor`, but a `doctor` can have several `appointments`.
+
+2. An `appointment` can only have one `patient`, but a `patient` can have several `appointments`.
+
+3. A `doctor` can have several `patient`s, through `appointments`, and vice versa.
+
+- `Cities`
+  - `city_name`
+
+1. A `city` can have several `dogsitter` and `dog`.
